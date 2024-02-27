@@ -1,0 +1,153 @@
+/* HTML */
+
+html {
+    scroll-behavior: smooth;
+
+
+}
+
+
+
+
+/* BODY */
+body {
+    background-color: black;
+    font-size: larger;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+
+
+/* NAVBAR */
+
+
+
+header {
+    background-color: #a80035;
+    font-size: larger;
+}
+
+.header-left {
+    text-align: center;
+
+}
+
+.nav-bar ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+.nav-bar ul li {
+    text-align: center;
+    text-decoration: none;
+    font-size: large;
+
+
+}
+
+
+nav ul li a:hover {
+    color: rgb(174, 174, 251);
+
+}
+
+
+
+/* MAIN */
+main {
+    text-align: center;
+
+}
+
+.bio {
+    font-size: 30px;
+    padding: 50px;
+
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    padding: 3rem;
+    text-align: center;
+}
+
+section img {
+    height: 300px;
+    width: 300px;
+}
+
+
+
+
+/* MAIN */
+
+
+
+
+
+.BioPic {
+    display: flex;
+    justify-content: center;
+
+}
+
+.BioPic img {
+    border: solid white;
+    border-radius: 1.5rem;
+    margin: 50px;
+    height: 300px;
+    width: 300px;
+}
+
+
+.tabs.tabs-bordered {
+    text-align: left;
+    text-decoration-color: #ffffff;
+    font-size: smaller;
+}
+
+.Acivities {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+
+}
+
+.Acivities img {
+    border-radius: 1rem;
+}
+
+.Certifications {
+
+    padding: 70px;
+
+}
+
+
+.Certifications img {
+
+    height: 50%;
+    width: 50%;
+
+}
+
+
+
+/* footer */
+
+footer ul {
+
+    background-color: rgb(188, 187, 187);
+    display: flex;
+    justify-content: center;
+
+}
