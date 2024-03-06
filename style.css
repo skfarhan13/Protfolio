@@ -70,11 +70,7 @@ main {
 
 }
 
-.image {
-    display: flex;
-    justify-content: center;
 
-}
 
 section {
     padding: 3rem;
@@ -144,11 +140,20 @@ section img {
 
 
 /* footer */
+footer{
+    color: #a80035;
+}
 
-footer ul {
+footer ul li{
 
     background-color: rgb(188, 187, 187);
     display: flex;
     justify-content: center;
 
+
+
+}
+
+footer ul li:hover{
+    color: #ffffff;
 }
